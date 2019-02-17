@@ -1,0 +1,34 @@
+{
+  "name": "graphql-opencv",
+  "version": "1.0.0",
+  "description": "Simple OpenCV Server with GraphQL API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit **/test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Infl1ght/graphql-opencv.git"
+  },
+  "keywords": [
+    "GraphQL",
+    "OpenCV"
+  ],
+  "author": "Volkov Ilya <ilya.inflight@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Infl1ght/graphql-opencv/issues"
+  },
+  "homepage": "https://github.com/Infl1ght/graphql-opencv#readme",
+  "dependencies": {
+    "download": "^7.1.0",
+    "fastify": "^1.14.1",
+    "fastify-gql": "^0.9.0",
+    "graphql": "^14.1.1",
+    "opencv4nodejs": "^4.14.1",
+    "unique-filename": "^1.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
